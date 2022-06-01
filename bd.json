@@ -1,0 +1,165 @@
+{
+  "players": [
+    {
+      "nom": "LLORIS",
+      "prenom": "Hugo",
+      "poste": "Gardien de but",
+      "image": "https://www.sofoot.com/IMG/joueurs/hugo-lloris-13203.jpg",
+      "id": 4
+    },
+    {
+      "nom": "maignan",
+      "prenom": "mike",
+      "poste": "Gardien de but",
+      "image": "https://www.sofoot.com/IMG/joueurs/mike-maignan-172543.jpg",
+      "id": 5
+    },
+    {
+      "nom": "clauss",
+      "prenom": "Jonathan",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/jonathan-clauss-85700.jpg",
+      "id": 6
+    },
+    {
+      "nom": "digne",
+      "prenom": "lucas",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/lucas-digne-84789.jpg",
+      "id": 7
+    },
+    {
+      "nom": "hernandez",
+      "prenom": "lucas",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/lucas-hernandez-227696.jpg",
+      "id": 8
+    },
+    {
+      "prenom": "Théo",
+      "nom": "Hernandez",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/theo-hernandez-243395.jpg",
+      "id": 9
+    },
+    {
+      "prenom": "presnel",
+      "nom": "kimpembe",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/presnel-kimpembe-218649.jpg",
+      "id": 10
+    },
+    {
+      "prenom": "jules",
+      "nom": "kounde",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/jules-kounde-282291.jpg",
+      "id": 11
+    },
+    {
+      "prenom": "benjamin",
+      "nom": "pavard",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/benjamin-pavard-242110.jpg",
+      "id": 12
+    },
+    {
+      "prenom": "william",
+      "nom": "saliba",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/william-saliba-361362.jpg",
+      "id": 13
+    },
+    {
+      "prenom": "raphaël",
+      "nom": "varane",
+      "poste": "Défenseur",
+      "image": "https://www.sofoot.com/IMG/joueurs/raphael-varane-114034.jpg",
+      "id": 14
+    },
+    {
+      "prenom": "mattéo",
+      "nom": "guendouzi",
+      "poste": "Milieu",
+      "image": "https://www.sofoot.com/IMG/joueurs/matteo-guendouzi-291439.jpg",
+      "id": 15
+    },
+    {
+      "prenom": "boubacar",
+      "nom": "kamara",
+      "poste": "Milieu",
+      "image": "https://www.sofoot.com/IMG/joueurs/boubacar-kamara-285979.jpg",
+      "id": 16
+    },
+    {
+      "prenom": "n'golo",
+      "nom": "kante",
+      "poste": "Milieu",
+      "image": "https://www.sofoot.com/IMG/joueurs/n-golo-kante-155751.jpg",
+      "id": 17
+    },
+    {
+      "prenom": "adrien",
+      "nom": "rabiot",
+      "poste": "Milieu",
+      "image": "https://www.sofoot.com/IMG/joueurs/adrien-rabiot-167000.jpg",
+      "id": 18
+    },
+    {
+      "prenom": "aurélien",
+      "nom": "tchouameni",
+      "poste": "Milieu",
+      "image": "https://www.sofoot.com/IMG/joueurs/aurelien-tchouameni-332186.jpg",
+      "id": 19
+    },
+    {
+      "prenom": "wissam",
+      "nom": "ben yedder",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/wissam-ben-yedder-96084.jpg",
+      "id": 20
+    },
+    {
+      "prenom": "karim",
+      "nom": "benzema",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/11490.jpg",
+      "id": 21
+    },
+    {
+      "prenom": "kingsley",
+      "nom": "coman",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/kingsley-coman-193583.jpg",
+      "id": 22
+    },
+    {
+      "prenom": "moussa",
+      "nom": "diaby",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/moussa-diaby-303295.jpg",
+      "id": 23
+    },
+    {
+      "prenom": "antoine",
+      "nom": "griezmann",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/82457.jpg",
+      "id": 24
+    },
+    {
+      "prenom": "kylian",
+      "nom": "mbappe",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/250043.jpg",
+      "id": 25
+    },
+    {
+      "prenom": "christopher",
+      "nom": "nkunku",
+      "poste": "Attaquant",
+      "image": "https://www.sofoot.com/IMG/joueurs/christopher-nkunku-247011.jpg",
+      "id": 26
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<div class="container mt-2">
+
+
+  <div class="row justify-content-center">
+    <div class="col-5">
+
+      <form #validationForm="ngForm" (ngSubmit)="submitForm()">
+
+        <div class="mb-2">
+          <label for="prenom" class="form-label">Ajouter le prénom du joueur</label>
+          <input type="text" required #inputPrenom="ngModel" name="prenom" id="prenom" [(ngModel)]="joueurForm.prenom"
+            class="form-control">
+          <div *ngIf="!inputPrenom.valid">
+            Le champ prénom n'est pas valide
+          </div>
+        </div>
+
+        <div class="mb-2">
+          <label for="nom" class="form-label">Ajouter le nom du joueur</label>
+          <input type="text" required #inputNom="ngModel" name="nom id=" nom [(ngModel)]="joueurForm.nom"
+            class="form-control">
+          <div *ngIf="!inputNom.valid">
+            Le champ nom n'est pas valide
+          </div>
+        </div>
+
+        <div class="mb-2">
+            <label for="poste" class="form-label">Donner le poste du joueur </label>
+            <input  required #inputPoste="ngModel" name="poste" id="poste" [(ngModel)]="joueurForm.poste"
+              class="form-control" list="postes">
+              <datalist id="postes">
+                <option value="Gardien de but">
+                <option value="Défenseur">
+                <option value="Milieu">
+                <option value="Attaquant">
+
+              </datalist>
+            <div *ngIf="!inputPoste.valid">
+              Le champ poste n'est pas valide
+            </div>
+          </div>
+
+        <div class="mb-2">
+          <label for="image" class="form-label">Ajouter une photo du joueur (coller un Url)</label>
+          <input type="text" required #inputImage="ngModel" name="image" id="image" [(ngModel)]="joueurForm.image"
+            class="form-control">
+          <div *ngIf="!inputImage.valid">
+            Le champ image n'est pas valide
+          </div>
+        </div>
+
+
+
+        <div class="mb-2">
+          <input [disabled]="!validationForm.valid" type="submit">
+          <div *ngIf="!validationForm.valid ">
+            Le form n'est pas encore valide
+          </div>
+        </div>
+
+      </form>
+      <button [routerLink]="['/']" class="btn btn-success">Revenir à la liste</button>
+    </div>
+  </div>
+
+</div>

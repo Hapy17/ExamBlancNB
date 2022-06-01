@@ -1,0 +1,28 @@
+<div class="container text-center ">
+
+    <div *ngIf="!listJoueurs">
+      <div class="text-center mt-5">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+
+    <button *ngIf="listJoueurs!.length<=22" [routerLink]="['/add']" class="my-3 btn btn-success">Ajouter un joueur surpayé</button>
+
+    <div class="row mt-3">
+        <div class="col-6 col-md-4 col-lg-2"  *ngFor="let joueur of listJoueurs">
+            <div class="card shadow mb-3">
+
+                <img [src]="joueur.image" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title"> {{joueur.prenom | titlecase}} <br> {{joueur.nom | uppercase}} </h5>
+                  <p class="card-text"> {{joueur.poste}} </p>
+                  <button [routerLink]="['/details',joueur.id]" class="btn btn-success mb-1">Voir en détail</button><br>
+                  <button *ngIf="joueur.id" (click)="delete(joueur.id)" class="btn btn-danger">Suppression</button>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
